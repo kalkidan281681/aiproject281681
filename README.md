@@ -41,7 +41,7 @@ After evaluating the models on the validation set, the Random Forest classifier 
 Figures and Tables<br>
 Model Performance Comparison
 <br>
-XGBoost	97,67%	97,87%	86,42%	91,50%	98,42%<img width="692" alt="image" src="https://github.com/kalkidan281681/aiproject281681/assets/170321639/d6820523-8283-41f3-a03f-3a24ca9ffc11">
+<img width="692" alt="image" src="https://github.com/kalkidan281681/aiproject281681/assets/170321639/d6820523-8283-41f3-a03f-3a24ca9ffc11">
 <img width="692" alt="image" src="https://github.com/kalkidan281681/aiproject281681/assets/170321639/d6820523-8283-41f3-a03f-3a24ca9ffc11">
 
 
