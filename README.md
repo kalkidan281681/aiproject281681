@@ -48,10 +48,11 @@ After evaluating the models on the validation set, the Random Forest classifier 
 ## Conclusions<br>
 <i> Take-Away Point </i> <br>
 Our study highlights the effectiveness of machine learning models in detecting fraudulent SMS messages. The Random Forest classifier, in particular, demonstrated excellent performance with an accuracy of 97.85%, precision of 100%, recall of 85.19%, and an F1 score of 92%. These results suggest that machine learning can significantly enhance digital security by automatically identifying and flagging potentially harmful messages, thereby protecting users from fraud.<br>
+<br>
 <i> Insights and Implications </i> <br>
 The high precision of the Random Forest model indicates its reliability in correctly identifying fraudulent messages, which is crucial for minimizing false alarms and maintaining user trust. The respectable recall shows the model's ability to catch a substantial proportion of actual frauds, reducing the risk of missed threats. The combination of these metrics into a high F1 score underscores the model's balanced performance in both aspects.<br>
-Moreover, the high ROC AUC score of 99.03% reflects the model's ability to distinguish between fraudulent and non-fraudulent messages across various threshold settings. This robustness is vital for adapting the model to different operational scenarios and risk tolerance levels in a real-world application.<br>
-<i> Limitations and Future Work </i> <br>
+Moreover, the high ROC AUC score of 99.03% reflects the model's ability to distinguish between fraudulent and non-fraudulent messages across various threshold settings. This robustness is vital for adapting the model to different operational scenarios and risk tolerance levels in a real-world application. <br>
+<br>
 While the results are promising, there are several areas for improvement and further investigation:<br>
 <i> Feature Enhancement: </i> Our current model primarily relies on text features derived from TF-IDF and SMS length. Incorporating additional features, such as metadata (e.g., sender information, time of day), could improve detection accuracy.<br>
 <i> Advanced Text Representations: </i> Exploring more sophisticated text representation techniques like word embeddings or contextual embeddings might capture deeper semantic nuances and improve model performance.<br>
