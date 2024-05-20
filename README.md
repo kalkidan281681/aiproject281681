@@ -1,6 +1,6 @@
-## Project 4: <br>
+## Project for AI: <br>
 # SafeComm Digital Security Solutions
-Authors: <br> Ana Andrijasevic <br> Cherine Abboud <br> Kalkidan Mezgebe 
+Authors: <br> <i> Ana Andrijasevic </i> <br> <i> Cherine Abboud </i> <br> <i> Kalkidan Mezgebe </i>
 
 [Section 1]<br>
 ## Introduction <br>
