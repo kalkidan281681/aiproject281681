@@ -37,7 +37,8 @@ We employed several evaluation metrics to assess model performance, including ac
 ## Results <br>
 <i> Main Findings </i> <br>
 After evaluating the models on the validation set, the Random Forest classifier emerged as the most effective, with an accuracy of 97.85%, precision of 100%, recall of 85.19%, and an F1 score of 92%. The ROC AUC was 98.80%, indicating excellent discriminatory ability.<br>
-Figures and Tables<br>
+<br>
+<i> Figures and Tables </i> <br>
 <i> Model Performance Comparison </i>
 <br>
 <img width="692" alt="image" src="https://github.com/kalkidan281681/aiproject281681/assets/170321639/d6820523-8283-41f3-a03f-3a24ca9ffc11">
