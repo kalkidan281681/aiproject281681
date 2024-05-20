@@ -10,17 +10,17 @@ In the modern digital age, text messaging has become a primary mode of communica
 To achieve our objective, we adopted a systematic approach encompassing data preprocessing, feature extraction, model training, and evaluation. The dataset comprised anonymized SMS messages labeled as either fraudulent or non-fraudulent. Our methodology included the following key steps:
 Data Preprocessing <br>
 We started by handling missing values in the dataset. Instead of dropping these records, we opted for imputation to retain as much data as possible. Next, we focused on feature extraction. We transformed the SMS text into numerical features using the TF-IDF (Term Frequency-Inverse Document Frequency) vectorization technique. This approach allowed us to capture the importance of words in each message relative to the entire dataset. Additionally, we calculated the length of each SMS as a supplementary feature.
-Model Training <br>
+<i> Model Training </i> <br>
 Recognizing that our task is a binary classification problem, we experimented with three machine learning algorithms: Naive Bayes, Random Forest, and XGBoost. Each model was trained and tuned using GridSearchCV to identify the optimal hyperparameters. We divided the data into training, validation, and test sets (60%-20%-20%) to ensure robust evaluation and prevent overfitting. <br>
 <br>
-Environment Setup <br>
+<i> Environment Setup </i> <br>
 To facilitate reproducibility, our project environment was managed using Anaconda. The following commands can recreate the environment:<br>
 
 conda create --name safecomm_env python=3.8 <br>
 conda activate safecomm_env <br>
 pip install pandas numpy scikit-learn matplotlib seaborn xgboost <br>
 <br>
-Design Choices <br>
+<i> Design Choices </i> <br>
 Our choice of models was influenced by their respective strengths: Naive Bayes for its simplicity and effectiveness in text classification, Random Forest for its robustness through ensemble learning, and XGBoost for superior performance via gradient boosting. Comparing these models helped identify the most effective approach for detecting fraudulent SMS.<br>
 <br>
 
@@ -39,22 +39,22 @@ We employed several evaluation metrics to assess model performance, including ac
 <i> Main Findings </i> <br>
 After evaluating the models on the validation set, the Random Forest classifier emerged as the most effective, with an accuracy of 97.85%, precision of 100%, recall of 85.19%, and an F1 score of 92%. The ROC AUC was 98.80%, indicating excellent discriminatory ability.<br>
 Figures and Tables<br>
-Model Performance Comparison
+<i> Model Performance Comparison </i>
 <br>
 <img width="692" alt="image" src="https://github.com/kalkidan281681/aiproject281681/assets/170321639/d6820523-8283-41f3-a03f-3a24ca9ffc11">
 <img width="692" alt="image" src="https://github.com/kalkidan281681/aiproject281681/assets/170321639/d6820523-8283-41f3-a03f-3a24ca9ffc11">
 
 
 ## Conclusions<br>
-Take-Away Point<br>
+<i> Take-Away Point </i> <br>
 Our study highlights the effectiveness of machine learning models in detecting fraudulent SMS messages. The Random Forest classifier, in particular, demonstrated excellent performance with an accuracy of 97.85%, precision of 100%, recall of 85.19%, and an F1 score of 92%. These results suggest that machine learning can significantly enhance digital security by automatically identifying and flagging potentially harmful messages, thereby protecting users from fraud.<br>
-Insights and Implications<br>
+<i> Insights and Implications </i> <br>
 The high precision of the Random Forest model indicates its reliability in correctly identifying fraudulent messages, which is crucial for minimizing false alarms and maintaining user trust. The respectable recall shows the model's ability to catch a substantial proportion of actual frauds, reducing the risk of missed threats. The combination of these metrics into a high F1 score underscores the model's balanced performance in both aspects.<br>
 Moreover, the high ROC AUC score of 99.03% reflects the model's ability to distinguish between fraudulent and non-fraudulent messages across various threshold settings. This robustness is vital for adapting the model to different operational scenarios and risk tolerance levels in a real-world application.<br>
-Limitations and Future Work<br>
+<i> Limitations and Future Work </i> <br>
 While the results are promising, there are several areas for improvement and further investigation:<br>
 Feature Enhancement: Our current model primarily relies on text features derived from TF-IDF and SMS length. Incorporating additional features, such as metadata (e.g., sender information, time of day), could improve detection accuracy.<br>
 Advanced Text Representations: Exploring more sophisticated text representation techniques like word embeddings (Word2Vec, GloVe) or contextual embeddings (BERT) might capture deeper semantic nuances and improve model performance.<br>
-Next Step<br>
+<i> Next Step </i> <br>
 Model Optimization: Experiment with imbalanced data handling techniques and further hyperparameter tuning.<br>
 Deployment and Monitoring: Develop a pipeline for real-time deployment, including monitoring and continuous learning from user feedback.<br>
