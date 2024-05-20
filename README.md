@@ -1,12 +1,11 @@
 ## Project for AI: <br>
 # SafeComm Digital Security Solutions
-Authors: <br> <i> Ana Andrijasevic </i> <br> <i> Cherine Abboud </i> <br> <i> Kalkidan Mezgebe </i>
+Authors: <br> <i> Ana Andrijasevic </i> <br> <i> Cherine Abboud </i> <br> <i> Kalkidan Mezgebe </i> <br>
 
-[Section 1]<br>
 ## Introduction <br>
 In the modern digital age, text messaging has become a primary mode of communication for people worldwide. However, this convenience comes with a significant drawback: the proliferation of SMS-based fraud. These fraudulent messages often aim to deceive recipients, leading to financial losses and other adverse outcomes. Our project, conducted, aims to design and implement a machine learning-based system that can automatically identify and flag fraudulent SMS messages. By leveraging anonymized SMS data provided by a major telecom provider, we aim to enhance digital security and protect users from potential fraud.<br>
 <br>
-[Section 2] <br> 
+
 ## Methods <br>
 To achieve our objective, we adopted a systematic approach encompassing data preprocessing, feature extraction, model training, and evaluation. The dataset comprised anonymized SMS messages labeled as either fraudulent or non-fraudulent. Our methodology included the following key steps:
 Data Preprocessing <br>
@@ -25,7 +24,6 @@ Design Choices <br>
 Our choice of models was influenced by their respective strengths: Naive Bayes for its simplicity and effectiveness in text classification, Random Forest for its robustness through ensemble learning, and XGBoost for superior performance via gradient boosting. Comparing these models helped identify the most effective approach for detecting fraudulent SMS.<br>
 <br>
 
-[Section 3] <br>
 ## Experimental Design <br>
 Main Purpose<br>
 The primary objective of our experiments was to determine the most effective machine learning model for identifying fraudulent SMS messages.<br>
@@ -35,7 +33,6 @@ Evaluation Metrics<br>
 We employed several evaluation metrics to assess model performance, including accuracy, precision, recall, F1 score, and ROC AUC. Precision and recall were particularly important given the cost of false positives and false negatives in fraud detection.<br>
 <br>
 
-[Section 4]<br>
 ## Results <br>
 Main Findings<br>
 After evaluating the models on the validation set, the Random Forest classifier emerged as the most effective, with an accuracy of 97.85%, precision of 100%, recall of 85.19%, and an F1 score of 92%. The ROC AUC was 98.80%, indicating excellent discriminatory ability.<br>
@@ -43,7 +40,6 @@ Figures and Tables<br>
 Model Performance Comparison
 <br>
 
-[Section 5]<br>
 ## Conclusions<br>
 Take-Away Point<br>
 Our study highlights the effectiveness of machine learning models in detecting fraudulent SMS messages. The Random Forest classifier, in particular, demonstrated excellent performance with an accuracy of 97.85%, precision of 100%, recall of 85.19%, and an F1 score of 92%. These results suggest that machine learning can significantly enhance digital security by automatically identifying and flagging potentially harmful messages, thereby protecting users from fraud.<br>
