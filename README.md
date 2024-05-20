@@ -53,8 +53,9 @@ The high precision of the Random Forest model indicates its reliability in corre
 Moreover, the high ROC AUC score of 99.03% reflects the model's ability to distinguish between fraudulent and non-fraudulent messages across various threshold settings. This robustness is vital for adapting the model to different operational scenarios and risk tolerance levels in a real-world application.<br>
 <i> Limitations and Future Work </i> <br>
 While the results are promising, there are several areas for improvement and further investigation:<br>
-Feature Enhancement: Our current model primarily relies on text features derived from TF-IDF and SMS length. Incorporating additional features, such as metadata (e.g., sender information, time of day), could improve detection accuracy.<br>
-Advanced Text Representations: Exploring more sophisticated text representation techniques like word embeddings (Word2Vec, GloVe) or contextual embeddings (BERT) might capture deeper semantic nuances and improve model performance.<br>
-<i> Next Step </i> <br>
-Model Optimization: Experiment with imbalanced data handling techniques and further hyperparameter tuning.<br>
-Deployment and Monitoring: Develop a pipeline for real-time deployment, including monitoring and continuous learning from user feedback.<br>
+<i> Feature Enhancement: </i> Our current model primarily relies on text features derived from TF-IDF and SMS length. Incorporating additional features, such as metadata (e.g., sender information, time of day), could improve detection accuracy.<br>
+<i> Advanced Text Representations: </i> Exploring more sophisticated text representation techniques like word embeddings or contextual embeddings might capture deeper semantic nuances and improve model performance.<br>
+<bt>
+<i> Next Steps </i> <br>
+<i> Model Optimization: </i> Experiment with imbalanced data handling techniques and further hyperparameter tuning.<br>
+<i> Deployment and Monitoring: </i> Develop a pipeline for real-time deployment, including monitoring and continuous learning from user feedback.<br>
