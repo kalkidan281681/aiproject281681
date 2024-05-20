@@ -29,7 +29,6 @@ Our choice of models was influenced by their respective strengths: Naive Bayes f
 <be>
 The primary objective of our experiments was to determine the most effective machine learning model for identifying fraudulent SMS messages.<br>
 <i> Baseline </i> <br>
-<br>
 We established a baseline using the Naive Bayes classifier, a commonly used algorithm for text classification tasks.<br>
 <i> Evaluation Metrics</i> <br>
 We employed several evaluation metrics to assess model performance, including accuracy, precision, recall, F1 score, and ROC AUC. Precision and recall were particularly important given the cost of false positives and false negatives in fraud detection.<br>
