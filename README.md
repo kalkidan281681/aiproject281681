@@ -25,16 +25,18 @@ Our choice of models was influenced by their respective strengths: Naive Bayes f
 <br>
 
 ## Experimental Design <br>
-Main Purpose<br>
+<i> Main Purpose </i> <br>
+<be>
 The primary objective of our experiments was to determine the most effective machine learning model for identifying fraudulent SMS messages.<br>
-Baseline<br>
+<i> Baseline </i> <br>
+<br>
 We established a baseline using the Naive Bayes classifier, a commonly used algorithm for text classification tasks.<br>
-Evaluation Metrics<br>
+<i> Evaluation Metrics</i> <br>
 We employed several evaluation metrics to assess model performance, including accuracy, precision, recall, F1 score, and ROC AUC. Precision and recall were particularly important given the cost of false positives and false negatives in fraud detection.<br>
 <br>
 
 ## Results <br>
-Main Findings<br>
+<i> Main Findings </i> <br>
 After evaluating the models on the validation set, the Random Forest classifier emerged as the most effective, with an accuracy of 97.85%, precision of 100%, recall of 85.19%, and an F1 score of 92%. The ROC AUC was 98.80%, indicating excellent discriminatory ability.<br>
 Figures and Tables<br>
 Model Performance Comparison
